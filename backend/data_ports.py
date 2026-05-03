@@ -13,17 +13,16 @@ PORTS = [
     {'id': 13, 'name': 'Cochin (Kochi)', 'lat': 9.9673, 'lon': 76.2386, 'region': 'India (Southwest)', 'type': 'major'},
     {'id': 14, 'name': 'Port Blair (Andaman)', 'lat': 11.7401, 'lon': 92.7555, 'region': 'India (Island)', 'type': 'regional'},
     
+    # Sri Lanka (Indian Ocean Hub)
+    {'id': 17, 'name': 'Colombo', 'lat': 6.9271, 'lon': 79.8612, 'region': 'Sri Lanka', 'type': 'major'},
+    {'id': 18, 'name': 'Hambantota', 'lat': 6.1248, 'lon': 81.1185, 'region': 'Sri Lanka', 'type': 'regional'},
+    
     # Indian Ocean Hub
     {'id': 6, 'name': 'Dubai', 'lat': 25.2048, 'lon': 55.2708, 'region': 'UAE (Gulf)', 'type': 'major'},
     {'id': 15, 'name': 'Jebel Ali (Dubai)', 'lat': 24.9774, 'lon': 54.9983, 'region': 'UAE (Gulf)', 'type': 'major'},
     {'id': 16, 'name': 'Salalah (Oman)', 'lat': 17.0151, 'lon': 54.0924, 'region': 'Arabia', 'type': 'regional'},
     
     # Africa & Europe
-    {'id': 7, 'name': 'Cape Town', 'lat': -33.9249, 'lon': 18.4241, 'region': 'Africa', 'type': 'major'},
     {'id': 3, 'name': 'Rotterdam', 'lat': 51.9244, 'lon': 4.4777, 'region': 'Europe', 'type': 'major'},
     {'id': 5, 'name': 'Hamburg', 'lat': 53.5511, 'lon': 9.9937, 'region': 'Europe', 'type': 'major'},
-    
-    # Americas
-    {'id': 4, 'name': 'Los Angeles', 'lat': 34.0522, 'lon': -118.2437, 'region': 'N.America', 'type': 'major'},
-    {'id': 17, 'name': 'Long Beach', 'lat': 33.7373, 'lon': -118.1892, 'region': 'N.America', 'type': 'major'},
 ]

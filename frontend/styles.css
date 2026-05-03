@@ -226,3 +226,58 @@ canvas {
     color: #f44336;
     background: #ffebee;
 }
+.charts-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+margin-top:10px;
+}
+
+.chart-box{
+background:#f5f5f5;
+padding:10px;
+border-radius:6px;
+}
+
+.chart-box h5{
+margin:0 0 6px 0;
+font-size:12px;
+color:#333;
+}
+
+.summary-section{
+display:flex;
+gap:10px;
+margin-top:12px;
+}
+
+.summary-card{
+flex:1;
+padding:10px;
+border-radius:6px;
+color:white;
+text-align:center;
+}
+
+.summary-card.classical{
+background:#1976D2;
+}
+
+.summary-card.qaoa{
+background:#7B1FA2;
+}
+
+.summary-title{
+font-size:12px;
+opacity:0.9;
+}
+
+.summary-value{
+font-size:20px;
+font-weight:bold;
+}
+
+.summary-sub{
+font-size:11px;
+opacity:0.8;
+}
