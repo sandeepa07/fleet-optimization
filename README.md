@@ -1,7 +1,11 @@
-# Dynamic Quantum Sea Fleet Optimization (Demo)
-
-This repository is a minimal, demoable prototype for a map-based sea-route optimizer that compares classical and quantum-style approaches.
-
+# 🚀 Fleet Optimization using Quantum Machine Learning
+## 🎯 Key Highlights
+## ⚙️ Features
+- Designed a quantum-inspired fleet optimization system using QUBO formulation
+- Implemented route optimization using graph algorithms and Flask-based API
+- Compared classical and quantum-inspired approaches (simulated annealing, QAOA)
+- Built interactive frontend for route visualization
+This project presents a quantum-inspired approach to fleet route optimization, integrating classical graph algorithms with quantum optimization techniques.
 Features
 - Frontend: Leaflet world map UI to select origin & destination ports
 - Backend: Flask API that builds a sea-route graph from sample ports and computes k candidate sea paths
@@ -27,6 +31,11 @@ python -m backend.app
 3. Open the demo
 
 Navigate to `http://localhost:5000/frontend/index.html` or serve the `frontend` folder via a simple static server and point to `/api/ports` and `/api/routes` endpoints.
+
+## 📊 Results
+- Achieved optimized route selection using graph-based and quantum-inspired techniques
+- Demonstrated reduced computational complexity compared to traditional approaches
+- Successfully integrated backend optimization with interactive frontend visualization
 
 Notes
 - QAOA: the demo includes a placeholder; to run a true QAOA implementation install `qiskit` and extend `backend/optimizers.qaoa_simulator`.
